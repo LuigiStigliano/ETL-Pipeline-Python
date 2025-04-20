@@ -1,0 +1,1001 @@
+id,nome,cognome,eta,stipendio,data_assunzione,reparto
+1,Mario,Rossi,35,45000.0,2020-05-12,Vendite
+2,Laura,Bianchi,42,52000.0,2017-03-23,Marketing
+3,Giuseppe,Verdi,29,38000.0,2022-11-05,Sviluppo
+4,Anna,Neri,31,48000.0,2021-07-18,Risorse Umane
+5,Francesco,Russo,38,51000.0,2019-01-30,Vendite
+6,Giulia,Ferrari,26,37000.0,2023-09-14,Marketing
+7,Marco,Esposito,33,46000.0,2021-04-27,Sviluppo
+8,Martina,Romano,29,,2022-08-03,Risorse Umane
+9,Luca,Colombo,41,54000.0,2018-12-09,Vendite
+10,Giorgia,Ricci,36,49000.0,2020-06-22,Marketing
+11,Paolo,Marino,45,58000.0,2016-08-15,Amministrazione
+12,Sara,Greco,32,42000.0,2021-10-11,Vendite
+13,Andrea,Conti,39,51500.0,2019-05-29,Sviluppo
+14,Valentina,Barbieri,28,36000.0,2023-03-05,Marketing
+15,Giovanni,Mancini,44,56000.0,2017-01-18,Amministrazione
+16,Chiara,Lombardi,33,45500.0,2020-11-21,Risorse Umane
+17,Davide,Moretti,31,41000.0,2022-02-14,Sviluppo
+18,Federica,Pellegrini,37,50000.0,2018-07-08,Marketing
+19,Lorenzo,Santoro,29,39500.0,,Vendite
+20,Elena,Ferrara,40,53000.0,2019-09-26,Risorse Umane
+21,Roberto,Martini,36,47500.0,2020-04-03,Sviluppo
+22,Silvia,Galli,27,35000.0,2024-01-12,Marketing
+23,Michele,Caruso,43,55000.0,2016-11-30,Amministrazione
+24,Francesca,Vitale,34,46000.0,2021-06-17,Vendite
+25,Simone,Leone,30,42500.0,2022-09-09,Sviluppo
+26,Elisa,Serra,38,51000.0,2019-03-14,Marketing
+27,Matteo,Ferretti,32,44000.0,2021-12-22,Risorse Umane
+28,Alessia,Mariani,29,38500.0,2023-05-06,Vendite
+29,Stefano,Rinaldi,41,54500.0,2018-02-28,Amministrazione
+30,Marta,Costa,35,47000.0,2020-10-15,Marketing
+31,Alessandro,Fontana,37,49500.0,2019-07-21,Sviluppo
+32,Beatrice,Rizzo,26,36500.0,2024-03-18,Vendite
+33,Daniele,Lombardo,44,57000.0,2017-04-10,Amministrazione
+34,Valeria,Sala,33,45000.0,2021-08-27,Risorse Umane
+35,Fabio,Gallo,31,43000.0,2022-01-14,Sviluppo
+36,Cristina,Palumbo,39,52000.0,2018-10-06,Marketing
+37,Leonardo,Gentile,28,38000.0,2023-07-29,Vendite
+38,Serena,Fabbri,42,55500.0,2017-09-15,Amministrazione
+39,Emanuele,Monti,36,48500.0,2020-03-24,Sviluppo
+40,Jessica,Parisi,30,41500.0,2022-06-12,Risorse Umane
+41,Davide,Amato,34,46500.0,2021-02-03,Marketing
+42,Monica,Orlando,29,39000.0,2023-04-22,Vendite
+43,Luca,Silvestri,43,56500.0,2017-05-18,Amministrazione
+44,Roberta,Mazza,38,50500.0,2019-11-27,Risorse Umane
+45,Gabriele,Grassi,32,44500.0,2021-09-08,Sviluppo
+46,Eleonora,Guerra,27,37500.0,2024-02-11,Marketing
+47,Nicola,Sanna,41,53500.0,2018-04-30,Vendite
+48,Alessandra,Carbone,35,48000.0,2020-08-13,Sviluppo
+49,Stefania,Bernardi,40,52500.0,2018-06-25,Amministrazione
+50,Claudio,Marchetti,33,45500.0,2021-11-19,Risorse Umane
+51,Aurora,Rossetti,28,37000.0,2023-10-07,Marketing
+52,Federico,Ferri,39,51500.0,2019-02-16,Sviluppo
+53,Giulio,Pagano,45,58500.0,2016-10-05,Amministrazione
+54,Ilaria,Giuliani,31,43500.0,2022-04-28,Vendite
+55,Mattia,Rizzi,37,49000.0,2020-01-09,Sviluppo
+56,Sofia,D'Angelo,29,,2023-06-14,Marketing
+57,Giacomo,Mancuso,42,55000.0,2017-12-03,Amministrazione
+58,Margherita,Piazza,34,47500.0,2021-05-21,Risorse Umane
+59,Edoardo,Villa,30,42000.0,2022-08-17,Vendite
+60,Angela,Battaglia,36,50000.0,2019-04-02,Marketing
+61,Valerio,Caputo,28,38500.0,2023-01-23,Sviluppo
+62,Noemi,Benedetti,41,54000.0,2018-09-16,Amministrazione
+63,Antonio,Farina,39,52000.0,2019-06-11,Risorse Umane
+64,Carolina,De Rosa,32,43500.0,2022-03-09,Vendite
+65,Pietro,Tomasi,44,57500.0,2017-08-28,Marketing
+66,Alice,Coppola,30,41000.0,2023-02-15,Sviluppo
+67,Riccardo,Bellini,38,51000.0,2020-07-06,Amministrazione
+68,Camilla,De Angelis,27,36000.0,2024-04-19,Risorse Umane
+69,Fabrizio,Colombi,43,56000.0,2017-11-10,Vendite
+70,Isabel,Giordano,35,48500.0,2021-03-25,Marketing
+71,Tommaso,Belli,31,44000.0,2022-07-18,Sviluppo
+72,Bianca,Longo,40,53000.0,2018-05-07,Amministrazione
+73,Massimo,Sorrentino,36,49500.0,2020-09-29,Risorse Umane
+74,Alessia,Negri,29,40000.0,2023-08-13,Vendite
+75,Enrico,Donati,42,54500.0,2017-06-19,Marketing
+76,Vittoria,Romano,33,46000.0,2021-10-31,Sviluppo
+77,Flavio,Mancini,30,41500.0,2022-05-26,Risorse Umane
+78,Lucia,Fiore,37,50500.0,2019-08-05,Amministrazione
+79,Enzo,Piras,28,37500.0,2023-12-14,Vendite
+80,Paola,Ferretti,41,53500.0,2018-03-22,Marketing
+81,Dario,Carnevale,39,51500.0,2019-12-04,Sviluppo
+82,Maria,Rinaldi,32,45000.0,2022-10-20,Risorse Umane
+83,Bruno,Marini,45,59000.0,2016-09-11,Amministrazione
+84,Antonella,Testa,34,47000.0,2021-01-16,Marketing
+85,Giorgio,Ruggeri,31,42500.0,2022-12-08,Vendite
+86,Diana,Fontana,38,51000.0,2019-10-30,Sviluppo
+87,Marco,Bianchi,29,39500.0,2023-11-03,Risorse Umane
+88,Teresa,Messina,40,54000.0,2018-08-12,Amministrazione
+89,Niccolò,Riva,35,46500.0,2020-12-26,Marketing
+90,Caterina,Morelli,27,36500.0,2024-05-09,Vendite
+91,Massimiliano,Catalano,43,56500.0,2017-10-14,Sviluppo
+92,Linda,Ferrero,33,45500.0,2021-07-02,Amministrazione
+93,Vincenzo,Valentini,30,42000.0,2022-11-17,Risorse Umane
+94,Marina,D'Amico,38,51500.0,2019-05-23,Marketing
+95,Gianluca,Poli,29,,2023-09-01,Vendite
+96,Regina,Mariani,42,55500.0,2017-07-24,Sviluppo
+97,Alfonso,Serra,36,48000.0,2020-02-15,Amministrazione
+98,Rita,Romano,31,43000.0,2022-05-06,Risorse Umane
+99,Christian,De Luca,40,53500.0,2018-11-29,Marketing
+100,Miriam,Cattaneo,34,46000.0,2021-04-13,Sviluppo
+101,Adriano,Mancini,29,39500.0,2023-03-15,Vendite
+102,Beatrice,Rossi,34,47000.0,2021-08-22,Marketing
+103,Cesare,Santoro,42,54000.0,2018-05-11,Sviluppo
+104,Donatella,Esposito,27,37500.0,2024-01-19,Risorse Umane
+105,Ennio,Colombo,38,51000.0,2019-11-03,Amministrazione
+106,Fiorella,De Luca,31,43500.0,2022-06-28,Vendite
+107,Guido,Ricci,45,58500.0,2016-12-07,Marketing
+108,Irene,Martini,36,49000.0,2020-07-14,Sviluppo
+109,Leonardo,Galli,33,45500.0,2021-10-25,Risorse Umane
+110,Marika,Caruso,41,53500.0,2018-01-29,Amministrazione
+111,Natale,Vitale,28,38000.0,2023-09-08,Vendite
+112,Olimpia,Leone,39,52000.0,2019-04-17,Marketing
+113,Pierluigi,Serra,32,,2022-02-26,Sviluppo
+114,Rachele,Ferretti,44,57000.0,2017-11-05,Risorse Umane
+115,Salvatore,Mariani,30,41000.0,2022-08-14,Amministrazione
+116,Tiziana,Rinaldi,35,48500.0,2020-05-30,Vendite
+117,Umberto,Costa,37,50000.0,2019-12-12,Marketing
+118,Veronica,Fontana,29,39000.0,2023-07-23,Sviluppo
+119,Walter,Rizzo,43,56000.0,2017-04-01,Risorse Umane
+120,Yara,Lombardo,26,36500.0,2024-02-09,Amministrazione
+121,Zeno,Sala,40,53000.0,2018-09-20,Vendite
+122,Alberto,Gallo,31,42500.0,2022-01-15,Marketing
+123,Barbara,Palumbo,38,51500.0,2019-06-22,Sviluppo
+124,Carlo,Gentile,27,37000.0,2023-11-30,Risorse Umane
+125,Daniela,Fabbri,42,55000.0,2018-03-18,Amministrazione
+126,Ettore,Monti,33,45000.0,2021-12-02,Vendite
+127,Franca,Parisi,36,49500.0,2020-02-11,Marketing
+128,Giancarlo,Amato,30,42000.0,2022-09-27,Sviluppo
+129,Ida,Orlando,45,58000.0,,Risorse Umane
+130,Lorenzo,Silvestri,28,38500.0,2023-04-05,Amministrazione
+131,Mara,Mazza,39,52500.0,2019-01-14,Vendite
+132,Nino,Grassi,34,46500.0,2021-06-29,Marketing
+133,Olivia,Guerra,41,54500.0,2018-11-08,Sviluppo
+134,Pietro,Sanna,25,35500.0,2024-04-16,Risorse Umane
+135,Quintina,Carbone,37,50500.0,2020-09-25,Amministrazione
+136,Rocco,Bernardi,32,44000.0,2022-03-07,Vendite
+137,Sabrina,Marchetti,40,53000.0,2019-08-19,Marketing
+138,Taddeo,Rossetti,29,39500.0,2023-01-26,Sviluppo
+139,Ursula,Ferri,43,55500.0,2017-06-13,Risorse Umane
+140,Vito,Pagano,35,47500.0,2021-03-22,Amministrazione
+141,Agata,Giuliani,31,43000.0,2022-10-09,Vendite
+142,Bruno,Rizzi,44,57500.0,2017-05-28,Marketing
+143,Claudia,D'Angelo,27,36000.0,2024-03-15,Sviluppo
+144,Dino,Mancuso,38,51000.0,2019-07-24,Risorse Umane
+145,Emma,Piazza,33,45500.0,2021-11-17,Amministrazione
+146,Fulvio,Villa,41,54000.0,2018-04-06,Vendite
+147,Ginevra,Battaglia,36,48000.0,2020-01-23,Marketing
+148,Ivan,Caputo,30,41500.0,2022-06-05,Sviluppo
+149,Lorena,Benedetti,42,55000.0,,Risorse Umane
+150,Maurizio,Farina,28,37500.0,2023-08-14,Amministrazione
+151,Nadia,De Rosa,39,52000.0,2019-03-27,Vendite
+152,Oscar,Tomasi,34,46000.0,2021-09-06,Marketing
+153,Priscilla,Coppola,41,53500.0,2018-02-15,Sviluppo
+154,Renato,Bellini,26,36500.0,2024-05-22,Risorse Umane
+155,Stella,De Angelis,37,49500.0,2020-10-09,Amministrazione
+156,Tullio,Colombi,32,43500.0,2022-04-18,Vendite
+157,Vanessa,Giordano,44,56500.0,2017-01-26,Marketing
+158,Zaccaria,Belli,35,47000.0,2021-05-07,Sviluppo
+159,Ada,Longo,29,40000.0,2023-02-14,Risorse Umane
+160,Benedetto,Sorrentino,40,52500.0,2019-09-01,Amministrazione
+161,Camilla,Negri,31,42500.0,2022-03-18,Vendite
+162,Dante,Donati,45,58000.0,2017-08-11,Marketing
+163,Elisa,Romano,26,35500.0,2024-01-25,Sviluppo
+164,Fortunato,Mancini,38,50500.0,2020-04-09,Risorse Umane
+165,Giovanna,Fiore,34,46500.0,2021-07-20,Amministrazione
+166,Italo,Piras,28,39000.0,2023-12-03,Vendite
+167,Lavinia,Ferretti,41,53000.0,2018-05-13,Marketing
+168,Massimo,Carnevale,36,48500.0,2020-10-26,Sviluppo
+169,Nina,Rinaldi,30,41000.0,2022-05-15,Risorse Umane
+170,Oreste,Marini,43,55000.0,2018-03-04,Amministrazione
+171,Patrizia,Testa,32,44500.0,2022-09-21,Vendite
+172,Quirino,Ruggeri,39,52000.0,2019-02-08,Marketing
+173,Rosa,Fontana,35,47500.0,2021-05-13,Sviluppo
+174,Simone,Bianchi,27,37000.0,,Risorse Umane
+175,Tina,Messina,40,53500.0,2019-11-22,Amministrazione
+176,Ugo,Riva,33,45000.0,2021-02-09,Vendite
+177,Viola,Morelli,29,39500.0,2023-06-17,Marketing
+178,Arturo,Catalano,42,54500.0,2018-07-28,Sviluppo
+179,Bianca,Ferrero,37,50000.0,2020-03-05,Risorse Umane
+180,Corrado,Valentini,31,42000.0,2022-12-14,Amministrazione
+181,Dora,D'Amico,44,56000.0,2017-09-23,Vendite
+182,Ernesto,Poli,35,47000.0,2021-04-16,Marketing
+183,Flavia,Mariani,28,38500.0,2023-10-29,Sviluppo
+184,Gerardo,Serra,40,53000.0,2019-05-07,Risorse Umane
+185,Ines,Romano,34,45500.0,2022-02-13,Amministrazione
+186,Luigi,De Luca,42,55500.0,2018-10-31,Vendite
+187,Miranda,Cattaneo,26,36500.0,2024-03-27,Marketing
+188,Nicola,Mancini,38,50500.0,2020-08-14,Sviluppo
+189,Olga,Rossi,33,45000.0,2021-11-25,Risorse Umane
+190,Piero,Santoro,41,53500.0,2018-04-03,Amministrazione
+191,Roberta,Esposito,30,41500.0,2022-07-12,Vendite
+192,Sergio,Colombo,36,49000.0,2019-12-23,Marketing
+193,Teresa,Ricci,35,46500.0,2021-05-21,Sviluppo
+194,Umberto,Martini,27,37500.0,2023-03-08,Risorse Umane
+195,Vittoria,Galli,43,56500.0,2017-12-17,Amministrazione
+196,Zoe,Caruso,29,40000.0,2022-11-04,Vendite
+197,Andrea,Vitale,38,51000.0,2019-04-15,Marketing
+198,Bruna,Leone,32,43500.0,2021-09-26,Sviluppo
+199,Cosimo,Serra,45,58500.0,2017-02-11,Risorse Umane
+200,Diana,Ferretti,34,46000.0,2021-08-03,Amministrazione
+201,Elio,Mariani,28,38000.0,2023-05-19,Vendite
+202,Federica,Rinaldi,41,54000.0,2018-12-28,Marketing
+203,Gianluigi,Costa,37,49500.0,2020-06-02,Sviluppo
+204,Ilaria,Fontana,31,42500.0,2022-01-09,Risorse Umane
+205,Lapo,Rizzo,39,52500.0,2019-05-20,Amministrazione
+206,Marcella,Lombardo,30,,2023-02-11,Vendite
+207,Nazzareno,Sala,42,55000.0,2018-09-17,Marketing
+208,Ornella,Gallo,35,47500.0,2021-01-28,Sviluppo
+209,Paolo,Palumbo,26,36000.0,2024-04-05,Risorse Umane
+210,Rebecca,Gentile,37,50000.0,2020-11-16,Amministrazione
+211,Silvio,Fabbri,31,43000.0,2022-04-25,Vendite
+212,Tatiana,Monti,44,57000.0,2017-07-13,Marketing
+213,Ugo,Parisi,29,39000.0,2023-01-22,Sviluppo
+214,Valentina,Amato,40,52000.0,2019-10-09,Risorse Umane
+215,Zenobio,Orlando,33,44000.0,2022-03-16,Amministrazione
+216,Asia,Silvestri,34,46500.0,2021-06-25,Vendite
+217,Biagio,Mazza,41,53000.0,2018-03-18,Marketing
+218,Carmen,Grassi,28,38500.0,2023-07-07,Sviluppo
+219,Donato,Guerra,38,51500.0,2019-02-24,Risorse Umane
+220,Elvira,Sanna,32,44500.0,2021-12-11,Amministrazione
+221,Felice,Carbone,46,59000.0,2016-11-19,Vendite
+222,Gloria,Bernardi,36,49000.0,2020-05-01,Marketing
+223,Herbert,Marchetti,30,41500.0,2022-08-25,Sviluppo
+224,Isabella,Rossetti,43,55500.0,2018-01-14,Risorse Umane
+225,Jacopo,Ferri,35,46500.0,2021-10-23,Amministrazione
+226,Katia,Pagano,25,35500.0,2024-02-01,Vendite
+227,Livio,Giuliani,39,52000.0,2019-09-19,Marketing
+228,Milena,Rizzi,34,45500.0,2022-02-08,Sviluppo
+229,Nunzio,D'Angelo,41,54500.0,2018-07-17,Risorse Umane
+230,Ofelia,Mancuso,36,48000.0,2020-01-05,Amministrazione
+231,Pasquale,Piazza,31,42000.0,2022-06-12,Vendite
+232,Renata,Villa,40,53500.0,2019-03-31,Marketing
+233,Samuel,Battaglia,29,39500.0,2023-08-24,Sviluppo
+234,Tamara,Caputo,42,55000.0,2018-05-06,Risorse Umane
+235,Ulisse,Benedetti,37,49500.0,2020-12-15,Amministrazione
+236,Vera,Farina,33,44500.0,2022-07-28,Vendite
+237,William,De Rosa,45,57500.0,2017-02-09,Marketing
+238,Xenia,Tomasi,28,37500.0,2023-09-18,Sviluppo
+239,Yvonne,Coppola,42,55500.0,2017-11-27,Risorse Umane
+240,Alfredo,Bellini,36,48500.0,2020-04-10,Amministrazione
+241,Berenice,De Angelis,32,43500.0,2022-01-23,Vendite
+242,Cristiano,Colombi,40,52500.0,2019-08-07,Marketing
+243,Debora,Giordano,27,37000.0,2024-04-14,Sviluppo
+244,Edgardo,Belli,39,51000.0,2019-11-30,Risorse Umane
+245,Fiorenza,Longo,34,45000.0,2022-05-22,Amministrazione
+246,Gabriel,Sorrentino,30,41000.0,2023-03-06,Vendite
+247,Helga,Negri,43,56000.0,2017-08-24,Marketing
+248,Ignazio,Donati,35,47000.0,2020-06-13,Sviluppo
+249,Julia,Romano,29,,2023-04-01,Risorse Umane
+250,Kristian,Mancini,41,53500.0,2019-01-19,Amministrazione
+251,Luciana,Fiore,32,44000.0,2022-08-06,Vendite
+252,Morgan,Piras,38,51500.0,2019-05-27,Marketing
+253,Naomi,Ferretti,31,42500.0,2022-12-04,Sviluppo
+254,Omar,Carnevale,44,56500.0,2017-03-17,Risorse Umane
+255,Pamela,Rinaldi,33,45500.0,2021-07-28,Amministrazione
+256,Quasimodo,Marini,28,38000.0,2023-05-14,Vendite
+257,Ruth,Testa,40,52000.0,2019-12-21,Marketing
+258,Samuele,Ruggeri,36,48500.0,2021-03-09,Sviluppo
+259,Thomas,Fontana,32,43000.0,2022-10-17,Risorse Umane
+260,Ursula,Bianchi,44,57000.0,2017-05-31,Amministrazione
+261,Virgilio,Messina,27,36500.0,2024-02-28,Vendite
+262,Azzurra,Riva,39,51500.0,2020-09-07,Marketing
+263,Beniamino,Morelli,31,42000.0,2022-04-14,Sviluppo
+264,Cecilia,Catalano,40,53000.0,2018-11-24,Risorse Umane
+265,Demetrio,Ferrero,35,46000.0,2021-02-13,Amministrazione
+266,Eva,Valentini,29,40000.0,2023-07-21,Vendite
+267,Fabiano,D'Amico,41,54000.0,2018-04-08,Marketing
+268,Gianna,Poli,37,49000.0,2020-11-19,Sviluppo
+269,Igor,Mariani,32,43500.0,2022-06-03,Risorse Umane
+270,Ludovica,Serra,45,58000.0,2016-10-15,Amministrazione
+271,Manlio,Romano,30,41500.0,2023-01-28,Vendite
+272,Natalina,De Luca,38,51000.0,2020-08-11,Marketing
+273,Oscar,Cattaneo,33,44500.0,2022-03-20,Sviluppo
+274,Penelope,Mancini,42,54500.0,2018-06-29,Risorse Umane
+275,Raimondo,Rossi,36,48000.0,2021-04-08,Amministrazione
+276,Selene,Santoro,31,42500.0,2022-09-17,Vendite
+277,Tristano,Esposito,39,52000.0,2019-01-03,Marketing
+278,Valeria,Colombo,28,38500.0,2023-06-14,Sviluppo
+279,Xavier,Ricci,41,53500.0,2018-03-23,Risorse Umane
+280,Amanda,Martini,34,45500.0,2022-01-10,Amministrazione
+281,Baldassarre,Galli,43,56000.0,2017-10-19,Vendite
+282,Cassandra,Caruso,37,49500.0,2020-05-28,Marketing
+283,Damiano,Vitale,29,39500.0,2023-11-09,Sviluppo
+284,Elga,Leone,40,52500.0,2019-04-18,Risorse Umane
+285,Flavio,Serra,32,44000.0,2022-11-07,Amministrazione
+286,Greta,Ferretti,26,36000.0,,Vendite
+287,Harold,Mariani,38,50000.0,2019-06-16,Marketing
+288,Ingrid,Rinaldi,35,47500.0,2021-01-24,Sviluppo
+289,Jacopo,Costa,30,41000.0,2022-08-02,Risorse Umane
+290,Kevin,Fontana,42,55500.0,2018-12-10,Amministrazione
+291,Leda,Rizzo,33,45000.0,2021-09-27,Vendite
+292,Mirko,Lombardo,27,37000.0,2024-02-06,Marketing
+293,Nora,Sala,39,51500.0,2020-07-15,Sviluppo
+294,Osvaldo,Gallo,34,46500.0,2021-03-28,Risorse Umane
+295,Palmira,Palumbo,41,54000.0,2018-08-09,Amministrazione
+296,Ruggero,Gentile,35,46500.0,2022-05-16,Vendite
+297,Sonia,Fabbri,28,38000.0,2023-10-25,Marketing
+298,Terenzio,Monti,44,56500.0,2017-05-14,Sviluppo
+299,Unna,Parisi,31,43000.0,2022-02-21,Risorse Umane
+300,Vincent,Amato,40,52500.0,2019-07-08,Amministrazione
+301,Agata,Orlando,36,48000.0,2021-05-19,Vendite
+302,Barnaba,Silvestri,33,45500.0,2022-12-26,Marketing
+303,Carla,Mazza,27,37500.0,2023-04-07,Sviluppo
+304,Dimitri,Grassi,42,53500.0,2018-06-15,Risorse Umane
+305,Erminia,Guerra,35,47000.0,2021-08-28,Amministrazione
+306,Fabio,Sanna,29,40000.0,2023-02-05,Vendite
+307,Giusy,Carbone,43,55000.0,2018-05-17,Marketing
+308,Iacopo,Bernardi,38,50500.0,2020-10-06,Sviluppo
+309,Letizia,Marchetti,32,43500.0,2022-07-13,Risorse Umane
+310,Matteo,Rossetti,46,58500.0,2016-12-22,Amministrazione
+311,Noemi,Ferri,34,46000.0,2021-04-01,Vendite
+312,Ottavio,Pagano,30,42000.0,2023-09-09,Marketing
+313,Paola,Giuliani,40,53000.0,2019-02-18,Sviluppo
+314,Rino,Rizzi,36,48500.0,2020-09-13,Risorse Umane
+315,Sveva,D'Angelo,31,43000.0,2022-03-24,Amministrazione
+316,Tommaso,Mancuso,44,56000.0,2017-06-07,Vendite
+317,Uliana,Piazza,28,38500.0,2023-11-16,Marketing
+318,Vincenzo,Villa,39,52000.0,2019-08-23,Sviluppo
+319,Wanda,Battaglia,33,45000.0,2021-02-05,Risorse Umane
+320,Yuri,Caputo,41,54500.0,2018-11-14,Amministrazione
+321,Zaira,Benedetti,30,41500.0,2022-09-29,Vendite
+322,Adriano,Farina,37,49500.0,2020-02-08,Marketing
+323,Brunella,De Rosa,27,36500.0,2024-04-17,Sviluppo
+324,Corrado,Tomasi,42,55000.0,2018-01-25,Risorse Umane
+325,Domitilla,Coppola,35,47500.0,2021-06-11,Amministrazione
+326,Edmondo,Bellini,26,36000.0,2023-03-22,Vendite
+327,Floriana,De Angelis,39,51000.0,2020-12-09,Marketing
+328,Giuliano,Colombi,31,43500.0,2022-05-27,Sviluppo
+329,Hilda,Giordano,43,56500.0,2017-09-04,Risorse Umane
+330,Ivan,Belli,34,45500.0,2021-11-15,Amministrazione
+331,Jessica,Longo,29,39000.0,2023-08-28,Vendite
+332,Klaus,Sorrentino,38,50000.0,2019-03-13,Marketing
+333,Loredana,Negri,33,44000.0,2022-10-22,Sviluppo
+334,Massimiliano,Donati,45,58000.0,2016-12-31,Risorse Umane
+335,Norma,Romano,32,43500.0,2021-07-05,Amministrazione
+336,Orfeo,Mancini,28,38000.0,,Vendite
+337,Pia,Fiore,41,54000.0,2018-10-17,Marketing
+338,Quinto,Piras,36,48000.0,2020-05-26,Sviluppo
+339,Romina,Ferretti,30,41500.0,2022-01-13,Risorse Umane
+340,Stefano,Carnevale,40,53500.0,2019-06-02,Amministrazione
+341,Tiziano,Rinaldi,33,45000.0,2021-03-15,Vendite
+342,Umberta,Marini,26,36500.0,2024-01-24,Marketing
+343,Vittorio,Testa,37,50500.0,2019-12-07,Sviluppo
+344,Wally,Ruggeri,32,44500.0,2021-09-18,Risorse Umane
+345,Alessio,Fontana,41,53000.0,2018-04-26,Amministrazione
+346,Benedetta,Bianchi,35,47000.0,2020-11-09,Vendite
+347,Claudio,Messina,29,39500.0,2023-06-21,Marketing
+348,Denise,Riva,38,51500.0,2019-01-30,Sviluppo
+349,Egidio,Morelli,34,46000.0,2021-08-12,Risorse Umane
+350,Fabiola,Catalano,44,56500.0,2017-03-21,Amministrazione
+351,Giordano,Ferrero,31,42500.0,2022-10-04,Vendite
+352,Helga,Valentini,25,35500.0,2024-03-11,Marketing
+353,Ilario,D'Amico,40,52500.0,2019-04-20,Sviluppo
+354,Jasmine,Poli,33,45500.0,2021-07-29,Risorse Umane
+355,Lino,Mariani,28,38500.0,2023-12-18,Amministrazione
+356,Mafalda,Serra,39,51000.0,2020-05-07,Vendite
+357,Narciso,Romano,32,43000.0,2022-02-16,Marketing
+358,Odette,De Luca,41,54500.0,2018-09-24,Sviluppo
+359,Pierfrancesco,Cattaneo,36,48500.0,2020-04-13,Risorse Umane
+360,Raffaella,Mancini,30,41000.0,2022-11-01,Amministrazione
+361,Spartaco,Rossi,43,55500.0,2017-06-10,Vendite
+362,Tania,Santoro,37,49000.0,2020-01-19,Marketing
+363,Ubaldo,Esposito,31,42000.0,2022-08-07,Sviluppo
+364,Viola,Colombo,42,54000.0,2018-03-16,Risorse Umane
+365,Walter,Ricci,34,45000.0,2021-10-25,Amministrazione
+366,Anita,Martini,29,39500.0,2023-07-14,Vendite
+367,Boris,Galli,38,50500.0,2019-02-23,Marketing
+368,Cinzia,Caruso,33,44500.0,2022-04-01,Sviluppo
+369,Danilo,Vitale,45,57000.0,2017-01-10,Risorse Umane
+370,Elda,Leone,35,47500.0,2020-06-19,Amministrazione
+371,Fausto,Serra,27,37000.0,2024-05-28,Vendite
+372,Gaia,Ferretti,39,52000.0,2019-10-07,Marketing
+373,Igor,Mariani,33,45500.0,2021-01-14,Sviluppo
+374,Jolanda,Rinaldi,28,38000.0,2023-04-02,Risorse Umane
+375,Karin,Costa,42,54500.0,2018-08-11,Amministrazione
+376,Luca,Fontana,36,48000.0,2020-03-20,Vendite
+377,Maristella,Rizzo,31,43500.0,2022-12-28,Marketing
+378,Nazzareno,Lombardo,40,52500.0,2019-05-09,Sviluppo
+379,Olinda,Sala,29,39000.0,,Risorse Umane
+380,Pasquale,Gallo,45,58000.0,2016-09-26,Amministrazione
+381,Rita,Palumbo,34,46500.0,2021-02-03,Vendite
+382,Sandro,Gentile,28,38500.0,2023-09-11,Marketing
+383,Tilde,Fabbri,38,50000.0,2020-04-20,Sviluppo
+384,Ulderico,Monti,32,44000.0,2022-11-29,Risorse Umane
+385,Vanna,Parisi,41,53500.0,2018-06-08,Amministrazione
+386,Werner,Amato,36,48500.0,2020-01-17,Vendite
+387,Yvette,Orlando,30,42000.0,2022-08-04,Marketing
+388,Zeno,Silvestri,46,58500.0,2016-11-13,Sviluppo
+389,Arianna,Mazza,33,45000.0,2021-06-21,Risorse Umane
+390,Bernardo,Grassi,28,37500.0,2023-01-09,Amministrazione
+391,Cristina,Guerra,40,52000.0,2019-06-20,Vendite
+392,Dino,Sanna,35,47000.0,2021-03-07,Marketing
+393,Eliana,Carbone,31,42500.0,2022-07-24,Sviluppo
+394,Franco,Bernardi,42,55000.0,2018-12-15,Risorse Umane
+395,Gaspare,Marchetti,37,49500.0,2020-09-02,Amministrazione
+396,Ileana,Rossetti,33,45500.0,2021-12-11,Vendite
+397,Jonathan,Ferri,25,35500.0,2024-05-20,Marketing
+398,Katia,Pagano,40,53000.0,2019-08-27,Sviluppo
+399,Lamberto,Giuliani,34,46000.0,2021-05-16,Risorse Umane
+400,Mia,Rizzi,29,39500.0,2023-10-23,Amministrazione
+401,Nino,D'Angelo,43,56000.0,2017-07-14,Vendite
+402,Olga,Mancuso,38,50500.0,2020-02-22,Marketing
+403,Patrizio,Piazza,27,37500.0,2024-01-31,Sviluppo
+404,Roberta,Villa,39,51500.0,2019-11-08,Risorse Umane
+405,Silvio,Battaglia,32,44500.0,2022-04-17,Amministrazione
+406,Tina,Caputo,45,57500.0,2017-01-26,Vendite
+407,Umberto,Benedetti,31,43000.0,2022-10-05,Marketing
+408,Vanessa,Farina,42,54000.0,2018-07-16,Sviluppo
+409,Wilma,De Rosa,37,50000.0,2020-12-25,Risorse Umane
+410,Achille,Tomasi,36,48000.0,2021-09-14,Amministrazione
+411,Beata,Coppola,30,42500.0,2022-02-21,Vendite
+412,Costantino,Bellini,40,52500.0,2019-07-30,Marketing
+413,Desdemona,De Angelis,35,46500.0,2021-04-10,Sviluppo
+414,Eugenio,Colombi,41,53500.0,2018-01-19,Risorse Umane
+415,Fortunata,Giordano,29,39000.0,2023-06-28,Amministrazione
+416,Giustino,Belli,44,56500.0,2017-11-07,Vendite
+417,Ilenia,Longo,33,45500.0,2021-08-16,Marketing
+418,Leandro,Sorrentino,28,38000.0,2023-03-25,Sviluppo
+419,Marta,Negri,42,54500.0,2018-10-14,Risorse Umane
+420,Nello,Donati,36,48500.0,2020-05-23,Amministrazione
+421,Orchidea,Romano,31,43500.0,2022-12-02,Vendite
+422,Pippo,Mancini,40,52000.0,2019-09-11,Marketing
+423,Regina,Fiore,34,46500.0,2021-06-20,Sviluppo
+424,Saverio,Piras,27,37000.0,,Risorse Umane
+425,Tamara,Ferretti,39,51000.0,2020-03-08,Amministrazione
+426,Unna,Carnevale,33,45000.0,2022-10-17,Vendite
+427,Vincenza,Rinaldi,28,38500.0,2023-05-26,Marketing
+428,Yasmine,Marini,41,53000.0,2018-02-05,Sviluppo
+429,Zaccaria,Testa,35,47500.0,2020-07-14,Risorse Umane
+430,Antonio,Ruggeri,32,44000.0,2022-03-23,Amministrazione
+431,Beatrice,Fontana,45,57000.0,2017-08-12,Vendite
+432,Cirillo,Bianchi,36,48000.0,2020-11-21,Marketing
+433,Dalila,Messina,30,42000.0,2022-06-30,Sviluppo
+434,Eric,Riva,40,53500.0,2019-01-09,Risorse Umane
+435,Frida,Morelli,33,45500.0,2021-04-18,Amministrazione
+436,Gabriele,Catalano,28,38000.0,2023-11-27,Vendite
+437,Henriette,Ferrero,41,54000.0,2018-06-07,Marketing
+438,Ignazio,Valentini,36,48500.0,2020-11-16,Sviluppo
+439,Julie,D'Amico,31,43000.0,2022-04-25,Risorse Umane
+440,Kurt,Poli,43,55500.0,2017-11-05,Amministrazione
+441,Lucilla,Mariani,34,46000.0,2021-02-12,Vendite
+442,Mario,Serra,29,39500.0,2023-07-21,Marketing
+443,Norina,Romano,40,53000.0,2019-04-08,Sviluppo
+444,Otello,De Luca,35,47000.0,2021-01-17,Risorse Umane
+445,Priscilla,Cattaneo,46,58500.0,2016-10-28,Amministrazione
+446,Renzo,Mancini,30,41500.0,2022-05-07,Vendite
+447,Silvia,Rossi,38,50500.0,2020-10-16,Marketing
+448,Teodoro,Santoro,33,45000.0,2021-07-25,Sviluppo
+449,Ursula,Esposito,27,37500.0,2024-02-03,Risorse Umane
+450,Vittore,Colombo,39,51500.0,2019-05-12,Amministrazione
+451,Wendy,Ricci,34,46500.0,2021-12-21,Vendite
+452,Alcide,Martini,29,39000.0,2023-08-09,Marketing
+453,Benedetta,Galli,42,54500.0,2018-03-18,Sviluppo
+454,Costanza,Caruso,37,49000.0,2020-06-27,Risorse Umane
+455,Diego,Vitale,33,45500.0,2021-03-16,Amministrazione
+456,Elena,Leone,28,38500.0,2023-10-25,Vendite
+457,Fabrizio,Serra,41,53500.0,2018-05-04,Marketing
+458,Gioia,Ferretti,36,48000.0,2020-12-13,Sviluppo
+459,Ilario,Mariani,30,42500.0,2022-07-20,Risorse Umane
+460,Linda,Rinaldi,43,55000.0,2017-04-10,Amministrazione
+461,Maurizio,Costa,35,47500.0,2021-09-19,Vendite
+462,Nadia,Fontana,29,39500.0,2023-02-28,Marketing
+463,Osvaldo,Rizzo,38,50000.0,2019-10-06,Sviluppo
+464,Piera,Lombardo,32,44500.0,2022-01-15,Risorse Umane
+465,Ramiro,Sala,44,56000.0,2017-06-24,Amministrazione
+466,Samantha,Gallo,37,49500.0,2020-08-03,Vendite
+467,Tarcisio,Palumbo,31,43000.0,2022-03-12,Marketing
+468,Ulrico,Gentile,40,52500.0,2019-12-21,Sviluppo
+469,Valentina,Fabbri,35,47000.0,2021-05-30,Risorse Umane
+470,Zeno,Monti,26,36000.0,,Amministrazione
+471,Agnese,Parisi,39,51000.0,2020-01-07,Vendite
+472,Bartolomeo,Amato,33,45500.0,2021-06-16,Marketing
+473,Carmela,Orlando,28,38000.0,2023-03-25,Sviluppo
+474,Dante,Silvestri,41,54000.0,2018-08-04,Risorse Umane
+475,Erika,Mazza,36,48500.0,2020-05-13,Amministrazione
+476,Filippo,Grassi,30,42000.0,2022-12-22,Vendite
+477,Germana,Guerra,44,56500.0,2017-07-31,Marketing
+478,Ivano,Sanna,37,49000.0,2020-03-09,Sviluppo
+479,Jasmine,Carbone,32,44000.0,2022-08-18,Risorse Umane
+480,Lorenzo,Bernardi,25,35500.0,2024-03-27,Amministrazione
+481,Melania,Marchetti,38,50500.0,2020-09-08,Vendite
+482,Norberto,Rossetti,33,45000.0,2021-02-17,Marketing
+483,Olimpia,Ferri,42,54500.0,2018-07-26,Sviluppo
+484,Pierluigi,Pagano,36,48000.0,2020-12-05,Risorse Umane
+485,Quintina,Giuliani,31,43500.0,2022-05-14,Amministrazione
+486,Rodolfo,Rizzi,39,51500.0,2019-08-23,Vendite
+487,Saveria,D'Angelo,34,46000.0,2021-03-02,Marketing
+488,Taddeo,Mancuso,28,38500.0,2023-08-11,Sviluppo
+489,Vania,Piazza,41,53000.0,2018-05-20,Risorse Umane
+490,Zaccaria,Villa,36,48500.0,2020-10-29,Amministrazione
+491,Alessandra,Battaglia,30,42500.0,2022-06-07,Vendite
+492,Bruno,Caputo,42,55500.0,2018-01-16,Marketing
+493,Cecilia,Benedetti,37,49500.0,2020-04-25,Sviluppo
+494,Dante,Farina,31,43000.0,2022-09-04,Risorse Umane
+495,Enrica,De Rosa,44,56000.0,2017-02-13,Amministrazione
+496,Ferdinando,Tomasi,35,47500.0,2021-07-22,Vendite
+497,Giuseppina,Coppola,29,39000.0,2023-04-09,Marketing
+498,Ivanoe,Bellini,40,52000.0,2019-11-18,Sviluppo
+499,Jennifer,De Angelis,34,46500.0,2021-06-29,Risorse Umane
+500,Libero,Colombi,38,50000.0,2020-01-08,Amministrazione
+501,Mina,Giordano,33,45500.0,2021-08-17,Vendite
+502,Natale,Belli,27,37000.0,2024-05-26,Marketing
+503,Oliva,Longo,42,54000.0,2018-12-05,Sviluppo
+504,Pietro,Sorrentino,36,48000.0,2020-07-14,Risorse Umane
+505,Rebecca,Negri,30,42000.0,2022-02-23,Amministrazione
+506,Sandro,Donati,43,55500.0,2017-09-01,Vendite
+507,Tina,Romano,33,45500.0,2021-12-10,Marketing
+508,Ulisse,Mancini,28,38000.0,2023-09-19,Sviluppo
+509,Virginia,Fiore,41,53500.0,2018-04-28,Risorse Umane
+510,Wilmer,Piras,35,47000.0,2021-01-07,Amministrazione
+511,Assunta,Ferretti,46,58000.0,2016-08-16,Vendite
+512,Benigno,Carnevale,39,51000.0,2020-03-25,Marketing
+513,Ciro,Rinaldi,34,46500.0,2021-10-13,Sviluppo
+514,Dalila,Marini,29,39500.0,2023-05-22,Risorse Umane
+515,Erminio,Testa,40,52500.0,2019-10-31,Amministrazione
+516,Fiorella,Ruggeri,35,47500.0,2021-03-10,Vendite
+517,Gianfranco,Fontana,31,43000.0,2022-08-19,Marketing
+518,Iole,Bianchi,43,55000.0,2018-01-28,Sviluppo
+519,Lapo,Messina,38,50500.0,2020-06-07,Risorse Umane
+520,Mirella,Riva,32,44500.0,2022-11-16,Amministrazione
+521,Oliviero,Morelli,26,36500.0,,Vendite
+522,Prisca,Catalano,39,51500.0,2019-06-25,Marketing
+523,Rosario,Ferrero,34,46000.0,2021-01-04,Sviluppo
+524,Serena,Valentini,29,39000.0,2023-06-13,Risorse Umane
+525,Teodoro,D'Amico,42,54500.0,2018-11-22,Amministrazione
+526,Umberta,Poli,36,48500.0,2020-04-10,Vendite
+527,Veronica,Mariani,30,42000.0,2022-09-19,Marketing
+528,Zefiro,Serra,43,55500.0,2017-12-28,Sviluppo
+529,Agostino,Romano,35,47000.0,2021-05-09,Risorse Umane
+530,Beatrice,De Luca,31,43500.0,2022-08-16,Amministrazione
+531,Calogero,Cattaneo,44,56500.0,2017-03-27,Vendite
+532,Dina,Mancini,37,49000.0,2020-10-05,Marketing
+533,Elia,Rossi,32,44000.0,2022-05-14,Sviluppo
+534,Fausta,Santoro,40,52000.0,2019-12-23,Risorse Umane
+535,Gerardo,Esposito,35,47500.0,2021-07-04,Amministrazione
+536,Helga,Colombo,27,37500.0,2024-02-13,Vendite
+537,Innocenzo,Ricci,39,51000.0,2019-05-22,Marketing
+538,Jasmina,Martini,34,46500.0,2021-10-31,Sviluppo
+539,Leonardo,Galli,28,38500.0,2023-03-10,Risorse Umane
+540,Maura,Caruso,41,53000.0,2018-08-19,Amministrazione
+541,Nicola,Vitale,36,48000.0,2020-03-28,Vendite
+542,Ottavia,Leone,31,43500.0,2022-10-09,Marketing
+543,Prospero,Serra,45,57000.0,2017-05-18,Sviluppo
+544,Rosalia,Ferretti,38,50500.0,2019-08-27,Risorse Umane
+545,Sabino,Mariani,33,45000.0,2021-03-08,Amministrazione
+546,Tiziana,Rinaldi,29,39500.0,2023-10-17,Vendite
+547,Umberto,Costa,41,53500.0,2018-05-26,Marketing
+548,Vittoria,Fontana,36,48500.0,2020-12-05,Sviluppo
+549,Walter,Rizzo,32,44000.0,2022-07-14,Risorse Umane
+550,Anita,Lombardo,44,56000.0,2017-02-23,Amministrazione
+551,Baldo,Sala,37,49500.0,2020-05-02,Vendite
+552,Cinzia,Gallo,31,43000.0,2022-12-11,Marketing
+553,Donato,Palumbo,40,52500.0,2019-07-20,Sviluppo
+554,Emanuela,Gentile,35,47000.0,2021-02-01,Risorse Umane
+555,Filiberto,Fabbri,30,42500.0,2022-05-10,Amministrazione
+556,Gianna,Monti,42,54500.0,2018-10-19,Vendite
+557,Ivano,Parisi,37,49000.0,2020-03-28,Marketing
+558,Luisa,Amato,32,44500.0,2022-09-06,Sviluppo
+559,Michele,Orlando,26,36000.0,2024-04-15,Risorse Umane
+560,Nives,Silvestri,39,51500.0,2019-01-24,Amministrazione
+561,Oreste,Mazza,33,45500.0,2021-08-03,Vendite
+562,Palma,Grassi,28,38000.0,2023-01-12,Marketing
+563,Raffaele,Guerra,41,53000.0,2018-06-21,Sviluppo
+564,Simona,Sanna,36,48000.0,2020-11-30,Risorse Umane
+565,Tancredi,Carbone,30,42000.0,2022-04-10,Amministrazione
+566,Ugo,Bernardi,43,55500.0,2017-11-19,Vendite
+567,Vittorio,Marchetti,38,50500.0,2020-06-28,Marketing
+568,Zelinda,Rossetti,32,44000.0,2022-01-07,Sviluppo
+569,Alessio,Ferri,45,57000.0,2017-04-16,Risorse Umane
+570,Beatrice,Pagano,36,48500.0,2020-09-25,Amministrazione
+571,Corrado,Giuliani,31,43500.0,2022-02-04,Vendite
+572,Daisy,Rizzi,25,35500.0,,Marketing
+573,Emilio,D'Angelo,40,52000.0,2019-09-13,Sviluppo
+574,Francesca,Mancuso,34,46500.0,2021-04-22,Risorse Umane
+575,Gino,Piazza,29,39000.0,2023-11-01,Amministrazione
+576,Iolanda,Villa,43,55000.0,2018-04-10,Vendite
+577,Lino,Battaglia,38,50000.0,2020-01-19,Marketing
+578,Mia,Caputo,32,44500.0,2022-06-28,Sviluppo
+579,Nicolo,Benedetti,45,57500.0,2017-01-08,Risorse Umane
+580,Olga,Farina,37,49500.0,2020-08-17,Amministrazione
+581,Piero,De Rosa,31,43000.0,2022-03-26,Vendite
+582,Renata,Tomasi,39,51000.0,2019-10-05,Marketing
+583,Simone,Coppola,34,46000.0,2021-05-14,Sviluppo
+584,Tatiana,Bellini,28,38500.0,2023-12-23,Risorse Umane
+585,Ugo,De Angelis,41,53500.0,2018-07-04,Amministrazione
+586,Valeria,Colombi,36,48000.0,2020-02-13,Vendite
+587,Wolfango,Giordano,30,42500.0,2022-07-22,Marketing
+588,Adelina,Belli,42,54000.0,2018-02-01,Sviluppo
+589,Bartolo,Longo,37,49500.0,2020-07-10,Risorse Umane
+590,Concetta,Sorrentino,31,43500.0,2022-12-19,Amministrazione
+591,Davide,Negri,40,52000.0,2019-05-28,Vendite
+592,Ester,Donati,35,47500.0,2021-10-07,Marketing
+593,Filippo,Romano,29,39500.0,2023-03-16,Sviluppo
+594,Giuseppina,Mancini,41,53000.0,2018-08-25,Risorse Umane
+595,Ignazio,Fiore,36,48500.0,2020-03-06,Amministrazione
+596,Jasmine,Piras,32,44000.0,2022-10-15,Vendite
+597,Luca,Ferretti,43,55500.0,2017-05-24,Marketing
+598,Maria,Carnevale,38,50000.0,2020-08-03,Sviluppo
+599,Natalia,Rinaldi,33,45500.0,2021-01-12,Risorse Umane
+600,Orazio,Marini,27,37000.0,2024-06-21,Amministrazione
+601,Patrizia,Testa,39,51500.0,2019-03-30,Vendite
+602,Raniero,Ruggeri,34,46500.0,2021-08-09,Marketing
+603,Susanna,Fontana,29,39000.0,2023-01-18,Sviluppo
+604,Tarcisio,Bianchi,40,52500.0,2019-06-27,Risorse Umane
+605,Ulla,Messina,35,47000.0,2021-11-06,Amministrazione
+606,Vincenzo,Riva,30,42000.0,2022-04-15,Vendite
+607,Zaira,Morelli,44,56000.0,2017-09-24,Marketing
+608,Andrea,Catalano,39,51000.0,2020-04-03,Sviluppo
+609,Bruno,Ferrero,33,45000.0,2021-07-12,Risorse Umane
+610,Carmela,Valentini,28,38500.0,2023-02-21,Amministrazione
+611,Daniele,D'Amico,42,54500.0,2018-07-30,Vendite
+612,Elisa,Poli,37,49000.0,2020-02-08,Marketing
+613,Fabio,Mariani,31,43500.0,2022-09-17,Sviluppo
+614,Gianna,Serra,40,52000.0,2019-04-26,Risorse Umane
+615,Iacopo,Romano,35,47500.0,2021-09-05,Amministrazione
+616,Lara,De Luca,29,39500.0,2023-04-14,Vendite
+617,Mirko,Cattaneo,41,53500.0,2018-11-23,Marketing
+618,Nello,Mancini,29,40000.0,2023-08-30,Sviluppo
+619,Orlando,Rossi,30,41500.0,2022-05-02,Risorse Umane
+620,Paolo,Santoro,38,51000.0,2019-12-11,Amministrazione
+621,Quirino,Esposito,33,45500.0,2021-03-20,Vendite
+622,Roberto,Colombo,27,37500.0,2024-01-07,Marketing
+623,Salvatore,Ricci,42,54000.0,2018-06-16,Sviluppo
+624,Taddeo,Martini,37,49500.0,2020-11-25,Risorse Umane
+625,Ubaldo,Galli,31,43000.0,2022-04-03,Amministrazione
+626,Valentino,Caruso,40,52500.0,2019-09-12,Vendite
+627,Walter,Vitale,35,47000.0,2021-02-21,Marketing
+628,Xavier,Leone,29,,2023-07-08,Sviluppo
+629,Ylenia,Serra,43,55500.0,2017-08-17,Risorse Umane
+630,Zaccaria,Ferretti,38,50000.0,2020-01-26,Amministrazione
+631,Alberto,Mariani,32,44500.0,2022-08-04,Vendite
+632,Bianca,Rinaldi,45,57000.0,2017-03-13,Marketing
+633,Claudio,Costa,36,48500.0,2020-10-22,Sviluppo
+634,Daniela,Fontana,30,42000.0,2022-03-31,Risorse Umane
+635,Ernesto,Rizzo,39,51500.0,2019-06-09,Amministrazione
+636,Flavia,Lombardo,34,46000.0,2021-11-18,Vendite
+637,Giacomo,Sala,28,38000.0,2023-04-27,Marketing
+638,Helga,Gallo,41,54000.0,2018-09-06,Sviluppo
+639,Ignazio,Palumbo,36,48000.0,2020-04-15,Risorse Umane
+640,Jessica,Gentile,30,41500.0,2022-11-24,Amministrazione
+641,Kevin,Fabbri,43,55000.0,2018-02-03,Vendite
+642,Laura,Monti,37,49000.0,2020-07-12,Marketing
+643,Marco,Parisi,32,44000.0,2022-02-21,Sviluppo
+644,Nicoletta,Amato,26,36500.0,2024-05-01,Risorse Umane
+645,Oscar,Orlando,39,51000.0,2019-08-10,Amministrazione
+646,Paola,Silvestri,34,46500.0,2021-01-19,Vendite
+647,Quintino,Mazza,29,39500.0,2023-06-28,Marketing
+648,Riccardo,Grassi,40,52000.0,,Sviluppo
+649,Stefania,Guerra,35,47500.0,2021-09-07,Risorse Umane
+650,Tommaso,Sanna,30,42000.0,2022-12-16,Amministrazione
+651,Ursula,Carbone,44,56000.0,2017-07-25,Vendite
+652,Vito,Bernardi,39,51500.0,2019-02-03,Marketing
+653,Wilma,Marchetti,33,45000.0,2021-05-14,Sviluppo
+654,Yuri,Rossetti,28,38500.0,2023-10-23,Risorse Umane
+655,Zeno,Ferri,42,54500.0,2018-05-04,Amministrazione
+656,Adriano,Pagano,37,49500.0,2020-12-13,Vendite
+657,Barbara,Giuliani,31,43500.0,2022-07-22,Marketing
+658,Cristian,Rizzi,45,57500.0,2017-12-31,Sviluppo
+659,Diana,D'Angelo,36,48000.0,2020-05-10,Risorse Umane
+660,Emanuele,Mancuso,30,42500.0,2022-10-19,Amministrazione
+661,Federica,Piazza,39,51000.0,2019-03-28,Vendite
+662,Giorgio,Villa,34,46500.0,2021-09-06,Marketing
+663,Helene,Battaglia,29,39000.0,2023-02-15,Sviluppo
+664,Igor,Caputo,41,53500.0,2018-07-24,Risorse Umane
+665,Julia,Benedetti,36,48500.0,2020-12-02,Amministrazione
+666,Kristian,Farina,31,43000.0,2022-05-12,Vendite
+667,Lorena,De Rosa,25,35500.0,2024-01-21,Marketing
+668,Massimo,Tomasi,40,52500.0,2019-10-30,Sviluppo
+669,Natalia,Coppola,35,47000.0,2021-03-10,Risorse Umane
+670,Oreste,Bellini,29,39500.0,2023-08-19,Amministrazione
+671,Patrizia,De Angelis,43,,2018-01-28,Vendite
+672,Quirino,Colombi,38,50500.0,2020-06-07,Marketing
+673,Renato,Giordano,32,44500.0,2022-01-16,Sviluppo
+674,Serena,Belli,45,57000.0,2017-06-25,Risorse Umane
+675,Tito,Longo,37,49000.0,2020-11-04,Amministrazione
+676,Ursula,Sorrentino,31,43500.0,2022-04-13,Vendite
+677,Vittoria,Negri,40,53000.0,2019-09-22,Marketing
+678,Walter,Donati,35,46500.0,2021-02-01,Sviluppo
+679,Xerxes,Romano,29,40000.0,2023-07-10,Risorse Umane
+680,Yara,Mancini,42,54000.0,2018-02-19,Amministrazione
+681,Zeno,Fiore,36,48000.0,2020-07-28,Vendite
+682,Adele,Piras,30,42500.0,2022-12-07,Marketing
+683,Bartolomeo,Ferretti,44,56500.0,2017-07-16,Sviluppo
+684,Claretta,Carnevale,39,52000.0,2019-12-25,Risorse Umane
+685,Domenico,Rinaldi,33,45500.0,2021-05-06,Amministrazione
+686,Edvige,Marini,28,38000.0,2023-10-15,Vendite
+687,Felice,Testa,41,53500.0,2018-05-24,Marketing
+688,Gianna,Ruggeri,36,48500.0,2020-08-03,Sviluppo
+689,Heather,Fontana,31,43000.0,2022-03-12,Risorse Umane
+690,Ivo,Bianchi,40,52500.0,2019-10-21,Amministrazione
+691,Johanna,Messina,35,47500.0,2021-03-30,Vendite
+692,Klaus,Riva,29,39500.0,2023-09-08,Marketing
+693,Letizia,Morelli,43,55000.0,2018-04-17,Sviluppo
+694,Michele,Catalano,38,50000.0,2020-09-26,Risorse Umane
+695,Nadia,Ferrero,32,44000.0,2022-02-05,Amministrazione
+696,Orlando,Valentini,26,36000.0,2024-05-14,Vendite
+697,Paola,D'Amico,39,51500.0,2019-04-23,Marketing
+698,Quirino,Poli,34,46000.0,2021-09-02,Sviluppo
+699,Roberta,Mariani,28,38500.0,2023-02-11,Risorse Umane
+700,Stefano,Serra,42,54500.0,2018-07-20,Amministrazione
+701,Teresa,Romano,37,49500.0,2020-12-29,Vendite
+702,Ulrico,De Luca,31,43500.0,2022-05-08,Marketing
+703,Valentina,Cattaneo,45,57500.0,2017-10-17,Sviluppo
+704,Walter,Mancini,36,48000.0,2020-03-26,Risorse Umane
+705,Xenia,Rossi,30,42000.0,2022-08-04,Amministrazione
+706,Yasmine,Santoro,39,51000.0,2019-01-13,Vendite
+707,Zaccaria,Esposito,34,46500.0,2021-06-22,Marketing
+708,Antonio,Colombo,29,,2023-11-01,Sviluppo
+709,Bruna,Ricci,41,53000.0,2018-06-10,Risorse Umane
+710,Cristiano,Martini,36,48500.0,2020-11-19,Amministrazione
+711,Donatella,Galli,30,42500.0,2022-04-28,Vendite
+712,Ernesto,Caruso,40,52000.0,2019-11-07,Marketing
+713,Flavia,Vitale,35,47000.0,2021-04-16,Sviluppo
+714,Giordano,Leone,29,39000.0,2023-09-25,Risorse Umane
+715,Helga,Serra,43,55500.0,2017-12-06,Amministrazione
+716,Iacopo,Ferretti,38,50500.0,2020-05-15,Vendite
+717,Jole,Mariani,32,44500.0,2022-10-24,Marketing
+718,Karin,Rinaldi,27,37500.0,2024-03-04,Sviluppo
+719,Lorenzo,Costa,40,52500.0,2019-08-13,Risorse Umane
+720,Mara,Fontana,34,46000.0,2021-01-22,Amministrazione
+721,Narciso,Rizzo,28,38000.0,2023-06-01,Vendite
+722,Orietta,Lombardo,41,53500.0,2018-11-10,Marketing
+723,Pierluigi,Sala,36,48000.0,2020-04-19,Sviluppo
+724,Quinto,Gallo,31,43000.0,2022-09-28,Risorse Umane
+725,Raimondo,Palumbo,40,52000.0,2019-02-06,Amministrazione
+726,Serena,Gentile,35,47500.0,2021-07-17,Vendite
+727,Tancredi,Fabbri,29,39500.0,2023-12-26,Marketing
+728,Ugo,Monti,42,54000.0,2018-08-06,Sviluppo
+729,Valeria,Parisi,37,49000.0,2020-01-15,Risorse Umane
+730,Wanda,Amato,32,44500.0,2022-06-24,Amministrazione
+731,Xavier,Orlando,26,36500.0,2024-01-02,Vendite
+732,Ylenia,Silvestri,39,51500.0,2019-06-11,Marketing
+733,Zenone,Mazza,33,45000.0,2021-11-20,Sviluppo
+734,Adriana,Grassi,28,38500.0,2023-04-29,Risorse Umane
+735,Bernardo,Guerra,41,53000.0,2018-10-08,Amministrazione
+736,Cristina,Sanna,36,48500.0,2020-03-17,Vendite
+737,Davide,Carbone,30,42000.0,2022-08-26,Marketing
+738,Elena,Bernardi,43,55000.0,2018-01-07,Sviluppo
+739,Fabio,Marchetti,38,50000.0,2020-06-16,Risorse Umane
+740,Giulia,Rossetti,32,44000.0,2022-11-25,Amministrazione
+741,Hector,Ferri,45,57000.0,2017-04-05,Vendite
+742,Ida,Pagano,37,49500.0,2020-09-14,Marketing
+743,Leonardo,Giuliani,31,43500.0,2022-02-23,Sviluppo
+744,Monica,Rizzi,40,52500.0,2019-07-04,Risorse Umane
+745,Nino,D'Angelo,35,,2021-12-13,Amministrazione
+746,Olga,Mancuso,29,39000.0,2023-05-22,Vendite
+747,Paolo,Piazza,42,54500.0,2018-08-31,Marketing
+748,Quintina,Villa,37,49500.0,2020-02-09,Sviluppo
+749,Roberto,Battaglia,31,43000.0,2022-07-18,Risorse Umane
+750,Susanna,Caputo,45,57500.0,2017-12-27,Amministrazione
+751,Tiziano,Benedetti,36,48000.0,2020-05-07,Vendite
+752,Umberta,Farina,30,42500.0,2022-10-16,Marketing
+753,Valentino,De Rosa,39,51000.0,2019-03-25,Sviluppo
+754,Wilma,Tomasi,34,46500.0,2021-08-05,Risorse Umane
+755,Arnaldo,Coppola,28,38000.0,2023-01-14,Amministrazione
+756,Beatrice,Bellini,41,53500.0,2018-06-23,Vendite
+757,Carmelo,De Angelis,36,48500.0,2020-11-02,Marketing
+758,Donatella,Colombi,30,42000.0,2022-04-11,Sviluppo
+759,Ettore,Giordano,40,52000.0,2019-09-20,Risorse Umane
+760,Fulvia,Belli,35,47500.0,2021-02-28,Amministrazione
+761,Gabriele,Longo,29,39500.0,2023-08-07,Vendite
+762,Helga,Sorrentino,43,55000.0,2018-03-18,Marketing
+763,Ivano,Negri,38,50500.0,2020-08-27,Sviluppo
+764,Jessica,Donati,32,44500.0,2022-01-05,Risorse Umane
+765,Kevin,Romano,27,37000.0,2024-04-14,Amministrazione
+766,Linda,Mancini,39,51500.0,2019-05-23,Vendite
+767,Mirko,Fiore,34,46000.0,2021-10-02,Marketing
+768,Nina,Piras,28,38500.0,2023-03-11,Sviluppo
+769,Orazio,Ferretti,42,54000.0,2018-10-20,Risorse Umane
+770,Paola,Carnevale,37,49000.0,2020-03-29,Amministrazione
+771,Quirino,Rinaldi,31,43500.0,2022-09-07,Vendite
+772,Raffaella,Marini,40,52500.0,2019-02-16,Marketing
+773,Saverio,Testa,35,47000.0,2021-07-25,Sviluppo
+774,Tiziana,Ruggeri,29,39000.0,2023-12-04,Risorse Umane
+775,Umberto,Fontana,42,54500.0,2018-05-13,Amministrazione
+776,Valentina,Bianchi,36,48000.0,2020-10-22,Vendite
+777,Walter,Messina,30,42000.0,2022-03-31,Marketing
+778,Xenia,Riva,25,35500.0,2024-03-10,Sviluppo
+779,Yuri,Morelli,40,52000.0,2019-08-19,Risorse Umane
+780,Zeno,Catalano,35,47500.0,2021-01-28,Amministrazione
+781,Adelina,Ferrero,30,42500.0,2022-06-06,Vendite
+782,Bruno,Valentini,43,55000.0,2018-11-15,Marketing
+783,Carolina,D'Amico,38,50000.0,2020-04-24,Sviluppo
+784,Danilo,Poli,32,44000.0,2022-09-03,Risorse Umane
+785,Elena,Mariani,26,,2024-02-12,Amministrazione
+786,Filippo,Serra,39,51500.0,2019-07-21,Vendite
+787,Giovanna,Romano,33,45500.0,2021-12-30,Marketing
+788,Harold,De Luca,28,38000.0,2023-05-10,Sviluppo
+789,Ilaria,Cattaneo,41,53000.0,2018-12-19,Risorse Umane
+790,Jacopo,Mancini,36,48500.0,2020-07-28,Amministrazione
+791,Katia,Rossi,30,42500.0,2022-01-06,Vendite
+792,Leonardo,Santoro,40,52000.0,2019-04-15,Marketing
+793,Marta,Esposito,35,47000.0,2021-09-24,Sviluppo
+794,Nicola,Colombo,29,39500.0,2023-02-03,Risorse Umane
+795,Ornella,Ricci,42,54500.0,2018-09-12,Amministrazione
+796,Pietro,Martini,37,49500.0,2020-02-21,Vendite
+797,Quinto,Galli,31,43000.0,2022-07-30,Marketing
+798,Rossana,Caruso,40,52500.0,2019-12-10,Sviluppo
+799,Stefano,Vitale,34,46500.0,2021-05-19,Risorse Umane
+800,Tina,Leone,28,38000.0,2023-10-28,Amministrazione
+801,Ugo,Serra,41,53500.0,2018-04-07,Vendite
+802,Valeria,Ferretti,36,48000.0,2020-09-16,Marketing
+803,William,Mariani,30,42000.0,2022-02-25,Sviluppo
+804,Xiana,Rinaldi,44,56000.0,2017-07-06,Risorse Umane
+805,Ylenia,Costa,39,51500.0,2019-10-15,Amministrazione
+806,Zelindo,Fontana,33,45000.0,2021-03-24,Vendite
+807,Alberto,Rizzo,27,37500.0,2024-06-03,Marketing
+808,Bruna,Lombardo,41,53000.0,2018-01-12,Sviluppo
+809,Carlo,Sala,36,48500.0,2020-06-21,Risorse Umane
+810,Daniela,Gallo,30,42500.0,2022-11-30,Amministrazione
+811,Enrico,Palumbo,39,51000.0,2019-04-09,Vendite
+812,Federica,Gentile,33,45500.0,2021-09-18,Marketing
+813,Giovanni,Fabbri,28,38500.0,2023-02-27,Sviluppo
+814,Helena,Monti,42,54000.0,2018-08-06,Risorse Umane
+815,Italo,Parisi,37,49000.0,2020-01-15,Amministrazione
+816,Jasmine,Amato,31,43500.0,2022-06-24,Vendite
+817,Klaus,Orlando,40,52000.0,2019-11-03,Marketing
+818,Lorenza,Silvestri,35,47500.0,2021-04-12,Sviluppo
+819,Marco,Mazza,29,,2023-09-21,Risorse Umane
+820,Nadia,Grassi,43,55500.0,2018-03-01,Amministrazione
+821,Orlando,Guerra,37,49500.0,2020-08-10,Vendite
+822,Paola,Sanna,31,43000.0,2022-01-19,Marketing
+823,Quirino,Carbone,40,52500.0,2019-06-28,Sviluppo
+824,Romina,Bernardi,35,47000.0,2021-11-06,Risorse Umane
+825,Silvio,Marchetti,29,39500.0,2023-04-17,Amministrazione
+826,Teresa,Rossetti,42,54500.0,2018-09-26,Vendite
+827,Ubaldo,Ferri,36,48000.0,2020-02-06,Marketing
+828,Valentina,Pagano,31,43500.0,2022-07-15,Sviluppo
+829,Walter,Giuliani,25,35500.0,2024-02-24,Risorse Umane
+830,Alessia,Rizzi,40,52000.0,2019-09-03,Amministrazione
+831,Baldo,D'Angelo,35,47500.0,2021-02-12,Vendite
+832,Cristina,Mancuso,29,39000.0,2023-07-21,Marketing
+833,Davide,Piazza,43,55000.0,2018-02-01,Sviluppo
+834,Eleonora,Villa,38,50500.0,2020-07-10,Risorse Umane
+835,Federico,Battaglia,32,44500.0,2022-12-19,Amministrazione
+836,Geraldina,Caputo,41,53000.0,2019-05-28,Vendite
+837,Helga,Benedetti,36,48500.0,2020-10-09,Marketing
+838,Ivano,Farina,30,42000.0,2022-03-18,Sviluppo
+839,Jasmine,De Rosa,39,51500.0,2019-08-27,Risorse Umane
+840,Kevin,Tomasi,34,46000.0,2021-01-08,Amministrazione
+841,Linda,Coppola,28,38000.0,2023-06-17,Vendite
+842,Marco,Bellini,42,54500.0,2018-11-26,Marketing
+843,Nadia,De Angelis,37,49500.0,2020-04-05,Sviluppo
+844,Oscar,Colombi,31,43000.0,2022-09-14,Risorse Umane
+845,Patrizia,Giordano,45,57000.0,2017-02-22,Amministrazione
+846,Quirino,Belli,36,48000.0,2020-05-31,Vendite
+847,Renata,Longo,30,42500.0,2022-08-09,Marketing
+848,Stefano,Sorrentino,39,51000.0,2019-01-18,Sviluppo
+849,Tiziana,Negri,34,46500.0,2021-06-29,Risorse Umane
+850,Umberto,Donati,28,38500.0,2023-11-08,Amministrazione
+851,Valerio,Romano,41,53500.0,2018-04-17,Vendite
+852,Wilma,Mancini,36,48000.0,2020-09-26,Marketing
+853,Alberto,Fiore,31,43500.0,2022-02-05,Sviluppo
+854,Bianca,Piras,40,52000.0,2019-07-14,Risorse Umane
+855,Carlo,Ferretti,35,47500.0,2021-12-23,Amministrazione
+856,Dora,Carnevale,29,39000.0,2023-05-04,Vendite
+857,Ennio,Rinaldi,42,,2018-10-13,Marketing
+858,Federica,Marini,38,50500.0,2020-03-22,Sviluppo
+859,Giordano,Testa,32,44000.0,2022-08-31,Risorse Umane
+860,Helga,Ruggeri,45,57500.0,2017-04-09,Amministrazione
+861,Ivan,Fontana,37,49000.0,2020-09-18,Vendite
+862,Johanna,Bianchi,31,43500.0,2022-02-27,Marketing
+863,Karim,Messina,40,52500.0,2019-06-06,Sviluppo
+864,Laura,Riva,35,47000.0,2021-11-15,Risorse Umane
+865,Mario,Morelli,29,39500.0,2023-04-24,Amministrazione
+866,Norma,Catalano,42,54000.0,2018-11-03,Vendite
+867,Oscar,Ferrero,36,48500.0,2020-04-12,Marketing
+868,Patrizia,Valentini,30,42000.0,2022-09-21,Sviluppo
+869,Quintino,D'Amico,40,52000.0,2019-02-28,Risorse Umane
+870,Renato,Poli,35,47500.0,2021-08-09,Amministrazione
+871,Sandra,Mariani,30,42500.0,2022-01-18,Vendite
+872,Terenzio,Serra,43,55000.0,2018-06-27,Marketing
+873,Ursula,Romano,38,50500.0,2020-11-05,Sviluppo
+874,Valentina,De Luca,32,44500.0,2022-04-14,Risorse Umane
+875,Walter,Cattaneo,26,36000.0,2024-07-24,Amministrazione
+876,Anastasia,Mancini,39,51500.0,2019-01-01,Vendite
+877,Bruno,Rossi,33,45000.0,2021-06-10,Marketing
+878,Claudia,Santoro,28,38500.0,2023-11-19,Sviluppo
+879,Davide,Esposito,41,53000.0,2018-06-30,Risorse Umane
+880,Elisa,Colombo,36,48000.0,2020-12-09,Amministrazione
+881,Fabio,Ricci,30,42000.0,2022-05-18,Vendite
+882,Gina,Martini,44,56500.0,2017-10-27,Marketing
+883,Hermes,Galli,39,51000.0,2019-03-08,Sviluppo
+884,Ilaria,Caruso,33,45500.0,2021-08-17,Risorse Umane
+885,Jacopo,Vitale,28,38000.0,2023-01-26,Amministrazione
+886,Katia,Leone,42,54500.0,2018-08-05,Vendite
+887,Lorenzo,Serra,37,49500.0,2020-01-14,Marketing
+888,Maura,Ferretti,31,43000.0,2022-06-23,Sviluppo
+889,Nello,Mariani,40,52500.0,2019-11-02,Risorse Umane
+890,Olga,Rinaldi,35,,2021-04-12,Amministrazione
+891,Paolo,Costa,29,39000.0,2023-09-21,Vendite
+892,Quintino,Fontana,42,54000.0,2018-02-28,Marketing
+893,Renata,Rizzo,36,48500.0,2020-08-10,Sviluppo
+894,Stefano,Lombardo,31,43500.0,2022-01-19,Risorse Umane
+895,Tiziana,Sala,40,52000.0,2019-06-28,Amministrazione
+896,Umberto,Gallo,34,46500.0,2021-11-07,Vendite
+897,Valeria,Palumbo,28,38500.0,2023-04-16,Marketing
+898,Walter,Gentile,41,53500.0,2018-09-25,Sviluppo
+899,Xavier,Fabbri,36,48000.0,2020-02-04,Risorse Umane
+900,Ylenia,Monti,30,42500.0,2022-07-14,Amministrazione
+901,Zelindo,Parisi,45,57000.0,2017-12-23,Vendite
+902,Adriano,Amato,37,49000.0,2020-07-02,Marketing
+903,Barbara,Orlando,31,43000.0,2022-12-11,Sviluppo
+904,Carlo,Silvestri,40,52500.0,2019-05-20,Risorse Umane
+905,Daniela,Mazza,35,47500.0,2021-10-29,Amministrazione
+906,Edoardo,Grassi,29,39500.0,2023-03-10,Vendite
+907,Federica,Guerra,43,55000.0,2018-10-19,Marketing
+908,Giovanni,Sanna,38,50500.0,2020-03-28,Sviluppo
+909,Helena,Carbone,32,44000.0,2022-09-06,Risorse Umane
+910,Igor,Bernardi,26,36500.0,2024-02-15,Amministrazione
+911,Jessica,Marchetti,39,51000.0,2019-05-24,Vendite
+912,Kristian,Rossetti,34,46500.0,2021-10-03,Marketing
+913,Lucia,Ferri,28,38000.0,2023-03-14,Sviluppo
+914,Michele,Pagano,41,53000.0,2018-08-23,Risorse Umane
+915,Nadia,Giuliani,36,48500.0,2020-01-31,Amministrazione
+916,Oscar,Rizzi,30,42000.0,2022-07-10,Vendite
+917,Patrizia,D'Angelo,43,55500.0,2018-02-19,Marketing
+918,Quintino,Mancuso,38,50000.0,2020-07-28,Sviluppo
+919,Roberta,Piazza,32,44500.0,2022-01-06,Risorse Umane
+920,Salvatore,Villa,27,37000.0,,Amministrazione
+921,Teresa,Battaglia,39,51500.0,2019-04-15,Vendite
+922,Umberto,Caputo,34,46000.0,2021-09-24,Marketing
+923,Valentina,Benedetti,28,38500.0,2023-02-04,Sviluppo
+924,Walter,Farina,42,54500.0,2018-09-13,Risorse Umane
+925,Xenia,De Rosa,37,49500.0,2020-02-22,Amministrazione
+926,Yuri,Tomasi,31,43000.0,2022-07-31,Vendite
+927,Zenobia,Coppola,40,52000.0,2019-01-10,Marketing
+928,Alessandro,Bellini,35,47500.0,2021-06-19,Sviluppo
+929,Francesca,Ferrari,36,,2017-03-01,Risorse Umane
+930,Martina,De Luca,32,,2023-10-02,Risorse Umane
+931,Sara,Bianchi,29,44124.5,2020-08-22,Marketing
+932,Davide,De Luca,24,47267.65,2015-08-13,Sviluppo
+933,Alessandro,Esposito,42,,2023-12-21,Vendite
+934,Stefano,Ferrari,23,47579.5,2015-08-10,Sviluppo
+935,Luca,Marino,24,,2015-03-01,Amministrazione
+936,Alessandro,Rossi,33,47838.42,2018-12-27,Vendite
+937,Sara,Esposito,41,46118.23,2014-02-28,Amministrazione
+938,Luca,Russo,38,38074.9,2019-08-07,Vendite
+939,Elena,Ferrari,47,36373.8,,Vendite
+940,Marco,Rossi,57,35459.71,2015-04-30,Amministrazione
+941,Elena,Verdi,51,32256.3,2023-09-10,Marketing
+942,Francesca,Marino,35,54550.51,2023-07-06,Vendite
+943,Luca,Russo,55,42185.14,2022-12-27,Vendite
+944,Francesca,Marino,42,,2018-07-11,Amministrazione
+945,Alessandro,Bianchi,27,42763.17,2016-07-12,Vendite
+946,Alessandro,Bianchi,25,,2012-09-03,Vendite
+947,Davide,Esposito,48,46198.58,2019-02-26,Amministrazione
+948,Elena,Rossi,56,42771.48,2019-06-25,Marketing
+949,Giulia,Bianchi,60,53765.86,,Amministrazione
+950,Sara,Bianchi,47,46843.03,,Risorse Umane
+951,Marco,Bianchi,58,33638.36,2017-04-13,Sviluppo
+952,Davide,Colombo,30,47077.81,2017-03-24,Amministrazione
+953,Francesca,Verdi,44,51559.09,2013-11-22,Vendite
+954,Francesca,Bianchi,28,,,Marketing
+955,Martina,Verdi,48,31691.9,2019-06-10,Marketing
+956,Elena,Esposito,36,44843.69,,Sviluppo
+957,Elena,Colombo,43,50488.5,,Marketing
+958,Marco,Conti,22,,2021-06-16,Marketing
+959,Davide,Colombo,28,42847.34,2012-05-29,Amministrazione
+960,Sara,De Luca,41,42677.69,,Sviluppo
+961,Giulia,Marino,48,34091.59,2014-06-19,Marketing
+962,Alessandro,Ferrari,38,57080.82,,Sviluppo
+963,Martina,Bianchi,31,,2018-12-18,Marketing
+964,Luca,Bianchi,42,36363.73,,Marketing
+965,Davide,Rossi,41,43681.66,2017-02-20,Sviluppo
+966,Martina,Ferrari,25,40942.53,2017-09-07,Marketing
+967,Alessandro,Bianchi,38,40236.94,2012-07-31,Amministrazione
+968,Luca,Bianchi,59,39961.58,2017-03-31,Sviluppo
+969,Sara,Ferrari,49,46442.36,,Sviluppo
+970,Marco,Bianchi,58,55974.91,2015-05-03,Amministrazione
+971,Alessandro,Esposito,22,32667.52,2014-07-26,Amministrazione
+972,Marco,Ferrari,22,30733.75,2016-04-16,Marketing
+973,Francesca,Esposito,29,,2020-09-15,Amministrazione
+974,Francesca,Marino,41,34173.35,2017-12-14,Amministrazione
+975,Davide,Ferrari,51,44942.99,,Sviluppo
+976,Elena,Marino,59,31661.94,2021-04-03,Sviluppo
+977,Alessandro,Colombo,54,54596.27,2012-10-08,Marketing
+978,Sara,Esposito,22,36701.67,2023-01-16,Risorse Umane
+979,Sara,Bianchi,49,52753.75,2016-05-18,Marketing
+980,Martina,Esposito,57,35909.56,2023-03-12,Vendite
+981,Luca,Russo,34,,2020-04-19,Vendite
+982,Sara,Colombo,31,42170.77,2019-12-19,Risorse Umane
+983,Giulia,Russo,32,,2024-01-27,Risorse Umane
+984,Davide,Esposito,37,50467.15,,Marketing
+985,Davide,Colombo,60,,2022-06-04,Sviluppo
+986,Davide,Marino,55,56481.77,2023-04-14,Vendite
+987,Marco,Ferrari,51,54440.74,,Amministrazione
+988,Elena,Bianchi,56,47168.94,2019-01-14,Risorse Umane
+989,Luca,Rossi,56,56858.6,,Risorse Umane
+990,Elena,Marino,26,,,Marketing
+991,Mario,Rossi,35,45000.0,2020-05-12,Vendite
+992,Laura,Bianchi,42,52000.0,2017-03-23,Marketing
+993,Giuseppe,Verdi,29,38000.0,2022-11-05,Sviluppo
+994,Anna,Neri,31,48000.0,2021-07-18,Risorse Umane
+995,Francesco,Russo,38,51000.0,2019-01-30,Vendite
+996,Giulia,Ferrari,26,37000.0,2023-09-14,Marketing
+997,Marco,Esposito,33,46000.0,2021-04-27,Sviluppo
+998,Martina,Romano,29,,2022-08-03,Risorse Umane
+999,Luca,Colombo,41,54000.0,2018-12-09,Vendite
+1000,Giorgia,Ricci,36,49000.0,2020-06-22,Marketing
