@@ -51,7 +51,7 @@ ETL-Pipeline-Python/
    python src/etl_pipeline.py
    ```
 3. I risultati verranno salvati nel database SQLite `data/output.db`
-4. Le visualizzazioni saranno generate nella cartella `data/visualizzazioni/`
+4. Le visual saranno generate nella cartella `data/visualizzazioni/`
 
 ## Funzionalità
 
