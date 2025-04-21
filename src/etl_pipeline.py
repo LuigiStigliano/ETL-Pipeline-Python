@@ -97,10 +97,10 @@ class ETLPipeline:
         df['stipendio'] = df['stipendio'].astype(float)
         
         # 4. Creare nuove colonne derivate
-        # Calcoliamo anni di servizio e stipendio annualizzato
+        # Calcoliamo anni di servisualio e stipendio annualizzato
         df['data_assunzione'] = pd.to_datetime(df['data_assunzione'])
-        df['anni_di_servizio'] = (datetime.now() - df['data_assunzione']).dt.days / 365.25
-        df['anni_di_servizio'] = df['anni_di_servizio'].round(1)
+        df['anni_di_servisualio'] = (datetime.now() - df['data_assunzione']).dt.days / 365.25
+        df['anni_di_servisualio'] = df['anni_di_servisualio'].round(1)
         
         # Calcoliamo lo stipendio orario (assumendo 40 ore settimanali per 52 settimane)
         df['stipendio_orario'] = round(df['stipendio'] / (40 * 52), 2)
@@ -112,14 +112,14 @@ class ETLPipeline:
             labels=['Basso', 'Medio', 'Alto']
         )
         
-        # 6. Aggiungiamo una colonna per il bonus basato sugli anni di servizio
-        df['bonus'] = df['anni_di_servizio'].apply(
+        # 6. Aggiungiamo una colonna per il bonus basato sugli anni di servisualio
+        df['bonus'] = df['anni_di_servisualio'].apply(
             lambda anni: 500 if anni < 2 else (1000 if anni < 5 else 2000)
         )
         
         # 7. Aggiungiamo una colonna per anzianità
         df['anzianita'] = pd.cut(
-            df['anni_di_servizio'],
+            df['anni_di_servisualio'],
             bins=[-1, 2, 5, 8, float('inf')],
             labels=['Junior', 'Mid', 'Senior', 'Expert']
         )
@@ -171,7 +171,7 @@ class ETLPipeline:
                     AVG(stipendio) as stipendio_medio,
                     MIN(stipendio) as stipendio_min,
                     MAX(stipendio) as stipendio_max,
-                    AVG(anni_di_servizio) as media_anni_servizio,
+                    AVG(anni_di_servisualio) as media_anni_servisualio,
                     SUM(bonus) as totale_bonus
                 FROM dipendenti
                 GROUP BY reparto
@@ -186,7 +186,7 @@ class ETLPipeline:
                     AVG(stipendio) as stipendio_medio,
                     MIN(stipendio) as stipendio_min,
                     MAX(stipendio) as stipendio_max,
-                    AVG(anni_di_servizio) as media_anni_servizio
+                    AVG(anni_di_servisualio) as media_anni_servisualio
                 FROM dipendenti
                 GROUP BY fascia_eta
             ''')
@@ -242,7 +242,7 @@ class ETLPipeline:
             'id': 'count',
             'stipendio': ['mean', 'min', 'max'],
             'eta': 'mean',
-            'anni_di_servizio': 'mean',
+            'anni_di_servisualio': 'mean',
             'bonus': 'sum'
         })
         print(reparto_stats)
@@ -252,7 +252,7 @@ class ETLPipeline:
         eta_stats = self.data.groupby('fascia_eta', observed=False).agg({
             'id': 'count',
             'stipendio': ['mean', 'min', 'max'],
-            'anni_di_servizio': 'mean'
+            'anni_di_servisualio': 'mean'
         })
         print(eta_stats)
         
@@ -292,8 +292,8 @@ class ETLPipeline:
         print("\nGenerazione delle visual...")
         
         # Creare directory per le visualizzazioni se non esiste
-        viz_dir = os.path.join(self.output_dir, 'visualizzazioni')
-        os.makedirs(viz_dir, exist_ok=True)
+        visual_dir = os.path.join(self.output_dir, 'visualizzazioni')
+        os.makedirs(visual_dir, exist_ok=True)
         
         # 1. Distribuzione degli stipendi per reparto (boxplot)
         plt.figure(figsize=(12, 6))
@@ -302,7 +302,7 @@ class ETLPipeline:
         plt.suptitle('')  # Rimuovi il titolo automatico
         plt.ylabel('Stipendio (€)')
         plt.tight_layout()
-        plt.savefig(os.path.join(viz_dir, 'stipendi_per_reparto.png'))
+        plt.savefig(os.path.join(visual_dir, 'stipendi_per_reparto.png'))
         plt.close()
         
         # 2. Distribuzione delle fasce di stipendio (pie chart)
@@ -311,7 +311,7 @@ class ETLPipeline:
         plt.title('Distribuzione delle Fasce di Stipendio')
         plt.ylabel('')
         plt.tight_layout()
-        plt.savefig(os.path.join(viz_dir, 'fasce_stipendio.png'))
+        plt.savefig(os.path.join(visual_dir, 'fasce_stipendio.png'))
         plt.close()
         
         # 3. Numero di dipendenti per reparto (bar chart)
@@ -320,7 +320,7 @@ class ETLPipeline:
         plt.title('Numero di Dipendenti per Reparto')
         plt.xlabel('Numero di Dipendenti')
         plt.tight_layout()
-        plt.savefig(os.path.join(viz_dir, 'dipendenti_per_reparto.png'))
+        plt.savefig(os.path.join(visual_dir, 'dipendenti_per_reparto.png'))
         plt.close()
         
         # 4. Stipendio medio per fascia d'età (bar chart)
@@ -330,24 +330,24 @@ class ETLPipeline:
         plt.ylabel('Stipendio Medio (€)')
         plt.xlabel('Fascia d\'Età')
         plt.tight_layout()
-        plt.savefig(os.path.join(viz_dir, 'stipendio_medio_per_eta.png'))
+        plt.savefig(os.path.join(visual_dir, 'stipendio_medio_per_eta.png'))
         plt.close()
         
         # 5. Relazione tra anzianità e stipendio (scatter plot)
         plt.figure(figsize=(10, 6))
-        plt.scatter(self.data['anni_di_servizio'], self.data['stipendio'], 
+        plt.scatter(self.data['anni_di_servisualio'], self.data['stipendio'], 
                     alpha=0.6, c=self.data['reparto'].astype('category').cat.codes)
-        plt.title('Relazione tra Anni di Servizio e Stipendio')
-        plt.xlabel('Anni di Servizio')
+        plt.title('Relazione tra Anni di Servisualio e Stipendio')
+        plt.xlabel('Anni di Servisualio')
         plt.ylabel('Stipendio (€)')
         plt.colorbar(ticks=range(len(self.data['reparto'].unique())), 
                     label='Reparto')
         plt.tight_layout()
-        plt.savefig(os.path.join(viz_dir, 'stipendio_vs_anzianita.png'))
+        plt.savefig(os.path.join(visual_dir, 'stipendio_vs_anzianita.png'))
         plt.close()
         
-        print(f"Visual salvate in {viz_dir}")
-        return viz_dir
+        print(f"Visual salvate in {visual_dir}")
+        return visual_dir
     
     def run(self):
         """
