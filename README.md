@@ -14,6 +14,8 @@ ETL-Pipeline-Python/
 ├── src/
 │   └── etl_pipeline.py   # Script principale per l'ETL
 ├── requirements.txt      # Elenco delle dipendenze
+├── LICENSE               # Informazioni sulla licenza del progetto
+├── CONTRIBUTING.md       # Linee guida per chi desidera contribuire al progetto
 └── README.md             # Documentazione e istruzioni dell'uso
 ```
 
