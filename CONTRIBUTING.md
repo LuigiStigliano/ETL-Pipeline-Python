@@ -42,9 +42,11 @@ Ecco alcune possibili evoluzioni del progetto:
 - Aggiungere controlli per le colonne nome, cognome, età e reparto
 - Aggiungere controlli per età superiori a quella lavorativa o età negativa e scegliere come trasformarli
 - Rendere modulare il codice
+- Aggiungere la sezione dei tests
 - Aggiungere funzionalità di esportazione in altri formati (Excel, JSON)
 - Implementare un'interfaccia web per visualizzare i report
 - Esportazione diretta verso strumenti come Power BI o Tableau
+- Consideerare l'utilizzo si Seaborn per grafici più sofisticati
 - Aggiungere supporto per altri database (MySQL, PostgreSQL)
 
 ## Segnalazione bug e richieste di funzionalità
