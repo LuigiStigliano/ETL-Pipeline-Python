@@ -97,10 +97,10 @@ class ETLPipeline:
         df['stipendio'] = df['stipendio'].astype(float)
         
         # 4. Creare nuove colonne derivate
-        # Calcoliamo anni di servisualio e stipendio annualizzato
+        # Calcoliamo anni di servizio e stipendio annualizzato
         df['data_assunzione'] = pd.to_datetime(df['data_assunzione'])
-        df['anni_di_servisualio'] = (datetime.now() - df['data_assunzione']).dt.days / 365.25
-        df['anni_di_servisualio'] = df['anni_di_servisualio'].round(1)
+        df['anni_di_servizio'] = (datetime.now() - df['data_assunzione']).dt.days / 365.25
+        df['anni_di_servizio'] = df['anni_di_servizio'].round(1)
         
         # Calcoliamo lo stipendio orario (assumendo 40 ore settimanali per 52 settimane)
         df['stipendio_orario'] = round(df['stipendio'] / (40 * 52), 2)
@@ -112,14 +112,14 @@ class ETLPipeline:
             labels=['Basso', 'Medio', 'Alto']
         )
         
-        # 6. Aggiungiamo una colonna per il bonus basato sugli anni di servisualio
-        df['bonus'] = df['anni_di_servisualio'].apply(
+        # 6. Aggiungiamo una colonna per il bonus basato sugli anni di servizio
+        df['bonus'] = df['anni_di_servizio'].apply(
             lambda anni: 500 if anni < 2 else (1000 if anni < 5 else 2000)
         )
         
         # 7. Aggiungiamo una colonna per anzianità
         df['anzianita'] = pd.cut(
-            df['anni_di_servisualio'],
+            df['anni_di_servizio'],
             bins=[-1, 2, 5, 8, float('inf')],
             labels=['Junior', 'Mid', 'Senior', 'Expert']
         )
@@ -171,7 +171,7 @@ class ETLPipeline:
                     AVG(stipendio) as stipendio_medio,
                     MIN(stipendio) as stipendio_min,
                     MAX(stipendio) as stipendio_max,
-                    AVG(anni_di_servisualio) as media_anni_servisualio,
+                    AVG(anni_di_servizio) as media_anni_servizio,
                     SUM(bonus) as totale_bonus
                 FROM dipendenti
                 GROUP BY reparto
@@ -186,7 +186,7 @@ class ETLPipeline:
                     AVG(stipendio) as stipendio_medio,
                     MIN(stipendio) as stipendio_min,
                     MAX(stipendio) as stipendio_max,
-                    AVG(anni_di_servisualio) as media_anni_servisualio
+                    AVG(anni_di_servizio) as media_anni_servizio
                 FROM dipendenti
                 GROUP BY fascia_eta
             ''')
@@ -242,7 +242,7 @@ class ETLPipeline:
             'id': 'count',
             'stipendio': ['mean', 'min', 'max'],
             'eta': 'mean',
-            'anni_di_servisualio': 'mean',
+            'anni_di_servizio': 'mean',
             'bonus': 'sum'
         })
         print(reparto_stats)
@@ -252,7 +252,7 @@ class ETLPipeline:
         eta_stats = self.data.groupby('fascia_eta', observed=False).agg({
             'id': 'count',
             'stipendio': ['mean', 'min', 'max'],
-            'anni_di_servisualio': 'mean'
+            'anni_di_servizio': 'mean'
         })
         print(eta_stats)
         
@@ -335,10 +335,10 @@ class ETLPipeline:
         
         # 5. Relazione tra anzianità e stipendio (scatter plot)
         plt.figure(figsize=(10, 6))
-        plt.scatter(self.data['anni_di_servisualio'], self.data['stipendio'], 
+        plt.scatter(self.data['anni_di_servizio'], self.data['stipendio'], 
                     alpha=0.6, c=self.data['reparto'].astype('category').cat.codes)
-        plt.title('Relazione tra Anni di Servisualio e Stipendio')
-        plt.xlabel('Anni di Servisualio')
+        plt.title('Relazione tra Anni di servizio e Stipendio')
+        plt.xlabel('Anni di servizio')
         plt.ylabel('Stipendio (€)')
         plt.colorbar(ticks=range(len(self.data['reparto'].unique())), 
                     label='Reparto')
