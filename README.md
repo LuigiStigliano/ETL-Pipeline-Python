@@ -9,7 +9,7 @@ Questo progetto nasce dall'unione di alcuni esercizi svolti finora durante il co
 ETL-Pipeline-Python/
 ├── data/
 │   ├── input.csv         # Dati grezzi da elaborare
-│   ├── output.db         # Database SQLite con i dati elaborati
+│   ├── output.db         # Database SQLite con i dati elaborati generata dopo l'esecuzione
 │   └── visualizzazioni/  # Directory generata con grafici e visualizzazioni
 ├── src/
 │   └── etl_pipeline.py   # Script principale per l'ETL
