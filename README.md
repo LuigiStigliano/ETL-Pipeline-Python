@@ -3,22 +3,6 @@
 Implementazione di una pipeline ETL (Extract, Transform, Load) in Python per elaborare dati da un file CSV e caricarli in un database SQLite con report e visualizzazioni.
 Questo progetto nasce dall'unione di alcuni esercizi svolti finora durante il corso con Generation Italy nel tentativo di unire le competenze che sto sviluppando.
 
-## Struttura del Progetto
-
-```
-ETL-Pipeline-Python/
-├── data/
-│   ├── input.csv         # Dati grezzi da elaborare
-│   ├── output.db         # Database SQLite con i dati elaborati generata dopo l'esecuzione
-│   └── visualizzazioni/  # Directory generata con grafici e visualizzazioni
-├── src/
-│   └── etl_pipeline.py   # Script principale per l'ETL
-├── requirements.txt      # Elenco delle dipendenze
-├── LICENSE               # Informazioni sulla licenza del progetto
-├── CONTRIBUTING.md       # Linee guida per chi desidera contribuire al progetto
-└── README.md             # Documentazione e istruzioni dell'uso
-```
-
 ## Installazione
 
 1. Clonare il repository:
