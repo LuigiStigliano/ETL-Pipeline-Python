@@ -104,3 +104,40 @@ Il file CSV di input (completamente astratto) contiene informazioni sui dipenden
 - stipendio
 - data_assunzione
 - reparto
+
+## Contributing
+
+Siamo felici di accettare contributi al progetto! Ecco come puoi contribuire:
+
+1. **Forka il repository** e crea un branch per le tue modifiche
+2. **Fai le tue modifiche** seguendo le linee guida del codice:
+   - Usa Python 3.9 o superiore
+   - Segui le convenzioni PEP8
+   - Usa docstring per tutte le funzioni pubbliche
+   - Blocca le versioni delle dipendenze in `requirements.txt`
+3. **Esegui i test** per assicurarti che tutto funzioni correttamente
+4. **Crea una Pull Request** spiegando le tue modifiche
+
+Per segnalare bug o richiedere nuove funzionalità, apri una [Issue](https://github.com/LuigiStigliano/ETL-Pipeline-Python/issues).
+
+## Sviluppi Futuri
+
+Il progetto ha diverse possibilità di evoluzione:
+
+### Miglioramenti nella Validazione dei Dati
+- Controlli per stipendi negativi e date di assunzione future
+- Validazione delle colonne nome, cognome, età e reparto
+- Gestione di età non valide (superiori a quella lavorativa o negative)
+
+### Miglioramenti Tecnici
+- Rendere il codice più modulare
+- Aggiungere una suite completa di test
+- Supporto per altri formati di output (Excel, JSON)
+- Supporto per altri database (MySQL, PostgreSQL)
+
+### Nuove Funzionalità
+- Interfaccia web per la visualizzazione dei report
+- Esportazione diretta verso Power BI o Tableau
+- Implementazione di grafici più sofisticati con Seaborn
+
+Per domande o suggerimenti, non esitare ad aprire una Issue nel repository.
