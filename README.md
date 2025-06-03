@@ -56,8 +56,12 @@ Il codice sorgente è organizzato nella cartella `src/` con i seguenti moduli:
 
 ### Transform (data_transformation.py)
 -   Pulizia dei dati:
-    -   rimozione duplicati (considerando tutte le colonne tranne l'id; se due record sono uguali in tutte le colonne tranne l'id, solo il primo viene mantenuto).
-    -   gestione valori mancanti (solo per le colonne stipendio e data_assunzione; eventuali valori mancanti in altre colonne non vengono gestiti).
+    -   Rimozione duplicati (considerando tutte le colonne tranne l'id; se due record sono uguali in tutte le colonne tranne l'id, solo il primo viene mantenuto).
+    -   **Validazione e gestione stipendi negativi**: gli stipendi negativi vengono convertiti in `NaN` e successivamente imputati.
+    -   **Validazione e gestione date di assunzione future**: le date di assunzione future rispetto alla data di esecuzione vengono convertite in `NaT` e successivamente imputate.
+    -   **Validazione colonne nome, cognome e reparto**: verifica che `nome`, `cognome` e `reparto` siano stringhe valide e non vuote; i record non validi vengono rimossi.
+    -   **Validazione e gestione età non valide**: verifica che l'età sia compresa in un intervallo lavorativo ragionevole (es. 16-70 anni) e non sia negativa; i record con età non valide vengono rimossi.
+    -   Gestione valori mancanti (per le colonne stipendio e data_assunzione, dopo le validazioni; eventuali valori mancanti in altre colonne non vengono gestiti se non attraverso la rimozione del record per fallimento di altre validazioni).
 -   Normalizzazione e conversione dei tipi di dati.
 -   Creazione di nuove colonne derivate:
     -   Anni di servizio
@@ -102,11 +106,6 @@ Il file CSV di input (`data/input.csv`) (completamente astratto) contiene inform
 ## Sviluppi Futuri
 
 Il progetto ha diverse possibilità di evoluzione:
-
-### Miglioramenti nella Validazione dei Dati
--   Controlli per stipendi negativi e date di assunzione future
--   Validazione delle colonne nome, cognome, età e reparto
--   Gestione di età non valide (superiori a quella lavorativa o negative)
 
 ### Miglioramenti Tecnici
 -   Aggiungere una suite completa di test
