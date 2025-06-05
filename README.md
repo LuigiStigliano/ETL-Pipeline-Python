@@ -22,21 +22,10 @@ Questo progetto nasce dall'unione di alcuni esercizi svolti finora durante il co
     source .venv/bin/activate
     ```
 
-3.  Installare le dipendenze (incluso Streamlit, ora presente in `requirements.txt`):
+3.  Installare le dipendenze:
     ```
     pip install -r requirements.txt
     ```
-
-## Struttura del Progetto
-
-Il codice sorgente è organizzato nella cartella `src/` con i seguenti moduli principali, più l'applicazione Streamlit nella root:
--   `streamlit_app.py`: Applicazione web interattiva basata su Streamlit per visualizzare i report e avviare la pipeline. (Situata nella directory principale del progetto)
--   `src/config.py`: Gestisce le configurazioni e i percorsi dei file.
--   `src/data_extraction.py`: Contiene la logica per l'estrazione dei dati.
--   `src/data_transformation.py`: Contiene la logica per la trasformazione e pulizia dei dati.
--   `src/data_loading.py`: Contiene la logica per il caricamento dei dati nel database.
--   `src/reporting.py`: Contiene la logica per la generazione di report testuali e visualizzazioni (utilizzata dalla pipeline principale e come riferimento per Streamlit).
--   `src/main_pipeline.py`: Script principale che orchestra l'intera pipeline ETL (può essere eseguito anche dall'interfaccia Streamlit).
 
 ## Utilizzo
 
